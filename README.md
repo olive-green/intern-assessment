@@ -1,15 +1,15 @@
 # intern-assessment
 # Yoga Class Booking App
 
-## ReactJS + ExpressJS + MySQL
+## ReactJS + ExpressJS + MongoDB
 ## Introduction
-This is a simple Yoga Class Booking App. In this project I've used ReactJS for the frontend, ExpressJS for the backend, MySQL for production database
+This is a simple Yoga Class Booking App. In this project I've used ReactJS for the frontend, ExpressJS for the backend, MongoDB for production database
 
 ## Features
 (**Note: While creating the project my aim was to focus entirely in the Backend part**)
 
  The API has minimal features like:
-- User Authentication (Login, Signup, Logout)
+- User Registration
 - Choosing a Batch (6-7AM, 7-8AM, 8-9AM and 5-6PM)
 - Changing the Batch (next month)
 - A Fake Payment
