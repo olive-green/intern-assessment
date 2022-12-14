@@ -17,20 +17,15 @@ This is a simple Yoga Class Booking App. In this project I've used ReactJS for t
 ## ER Diagram
 ![ER Diagram](https://i.imgur.com/JZqlNFs.png)
 
- *Why I chose this ER Diagram?*
-
- I've chosen this ER Diagram because I wanted to keep it simple and easy to understand. I've used the concept of **One to One** relationship between the **User** and **Batch** table as a user can only have one batch at a time. And **One to Many** relationship between the **User** and **Payment** table as a user can have multiple payments in different months.
-
- ---
-
-*I am not a React developer I hope you don't mind :p*
+## HomePage 
+![HomePage](https://github.com/olive-green/intern-assessment/blob/main/screenshots/homepage.png)
 
 ---
 
 ## API Documentation
 ## How to run this project
 ### Clone the repository
-    git clone https://github.com/rohit1kumar/flexmoney.git
+    git clone https://github.com/olive-green/intern-assessment.git
 
 ### Change the directory
     cd flexmoney
@@ -43,13 +38,11 @@ This is a simple Yoga Class Booking App. In this project I've used ReactJS for t
 ### Change the directory to server
     cd server
 ### Add environment variables by renaming the .env.example file to .env
+    dbUrl=" "
+    
+    
+    
 
-    DATABASE_NAME=<your database name>
-    DATABASE_USER=<you database user>
-    DATABASE_PASSWORD=<your database password>
-    DATABASE_HOST="localhost"
-    DATABASE_PORT="3306"
-    JWT_SECRET="jwt_secret"
 ### Base URL
     http://localhost:3000/api/v1
 ## API Endpoints
